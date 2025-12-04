@@ -1,0 +1,279 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20250707.171709.7.0.001.json",
+    "dumpEventTime": "2025-07-07T17:17:09Z",
+    "dumpEventTimeStamp": "1751879829991",
+    "processId": 7,
+    "cwd": "/srv/gitbook-src",
+    "commandLine": [
+      "node",
+      "/usr/local/bin/gitbook",
+      "serve"
+    ],
+    "nodejsVersion": "v12.10.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.10.0",
+      "v8": "7.6.303.29-node.16",
+      "uv": "1.31.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.10.0/node-v12.10.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.10.0/node-v12.10.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "6.8.0-62-generic",
+    "osVersion": "#65-Ubuntu SMP PREEMPT_DYNAMIC Mon May 19 17:15:03 UTC 2025",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-10500T CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 626727500,
+        "nice": 39500,
+        "sys": 195636300,
+        "idle": 2803120900,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-10500T CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 626017600,
+        "nice": 38300,
+        "sys": 200632800,
+        "idle": 2842583600,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-10500T CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 623581400,
+        "nice": 52800,
+        "sys": 201156900,
+        "idle": 2843763700,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-10500T CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 540366300,
+        "nice": 35600,
+        "sys": 199812500,
+        "idle": 2837263800,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "eth0",
+        "internal": false,
+        "mac": "c2:bd:22:3b:52:62",
+        "address": "172.17.0.4",
+        "netmask": "255.255.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      }
+    ],
+    "host": "a0a2ee72fcf3"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2155450368,
+    "totalCommittedMemory": 2151699624,
+    "usedMemory": 2114087928,
+    "availableMemory": 48390944,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 31744,
+        "capacity": 261832,
+        "used": 31432,
+        "available": 230400
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 1364584,
+        "capacity": 2094656,
+        "used": 377408,
+        "available": 1717248
+      },
+      "old_space": {
+        "memorySize": 2135011328,
+        "committedMemory": 2134590496,
+        "capacity": 2102909824,
+        "used": 2100926112,
+        "available": 1983712
+      },
+      "code_space": {
+        "memorySize": 1736704,
+        "committedMemory": 1666880,
+        "capacity": 1502432,
+        "used": 1502432,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 4460544,
+        "committedMemory": 4260576,
+        "capacity": 1585360,
+        "used": 1585360,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 9736192,
+        "committedMemory": 9736192,
+        "capacity": 9661728,
+        "used": 9661728,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3456,
+        "used": 3456,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 2094656,
+        "used": 0,
+        "available": 2094656
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 509.51,
+    "kernelCpuSeconds": 111.072,
+    "cpuConsumptionPercent": 0.729478,
+    "maxRss": 2730127360,
+    "pageFaults": {
+      "IORequired": 62,
+      "IONotRequired": 2488776
+    },
+    "fsActivity": {
+      "reads": 22336,
+      "writes": 1615192
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 388.548,
+    "kernelCpuSeconds": 63.0966,
+    "cpuConsumptionPercent": 0.530897,
+    "fsActivity": {
+      "reads": 11320,
+      "writes": 16
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "GIT_USERNAME": "",
+    "NODE_VERSION": "12.10.0",
+    "HOSTNAME": "a0a2ee72fcf3",
+    "YARN_VERSION": "1.17.3",
+    "SHLVL": "1",
+    "HOME": "/root",
+    "OLDPWD": "/srv/gitbook-src",
+    "GIT_TOKEN": "",
+    "GIT_REPO": "",
+    "GIT_BRANCH": "gh-pages",
+    "TERM": "xterm",
+    "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+    "GIT_USEREMAIL": "",
+    "GIT_COMMIT_MESSAGE": "Gitbook updated:",
+    "PWD": "/srv/gitbook-src",
+    "TZ": "Asia/Shanghai"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 8388608,
+      "hard": 8388608
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "/usr/local/bin/node",
+    "/usr/lib/libstdc++.so.6",
+    "/usr/lib/libgcc_s.so.1",
+    "/lib/ld-musl-x86_64.so.1"
+  ]
+}
